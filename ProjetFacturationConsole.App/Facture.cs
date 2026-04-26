@@ -1,7 +1,5 @@
 using System.Text;
 
-namespace ProjetFacturationConsole.App;
-
 public class Facture : DocumentCommercial {
     public DateTime DateEcheance { get; set; }
     public string Statut { get; set; }
