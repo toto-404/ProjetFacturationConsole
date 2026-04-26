@@ -1,5 +1,5 @@
 public class LigneFacture {
-    public string Description { get; set; }
+    public string? Description { get; set; }
     public int Quantite { get; set; }
     public decimal PrixUnitaireHT { get; set; }
     public decimal TauxTVA { get; set; }
@@ -9,7 +9,7 @@ public class LigneFacture {
     }
 
     public decimal CalculerMontantTVA() {
-        return CalculerTotalHT() * TauxTVA / 100;
+        return CalculerTotalHT() * TauxTVA;
     }
 
     public decimal CalculerTotalTTC() {
