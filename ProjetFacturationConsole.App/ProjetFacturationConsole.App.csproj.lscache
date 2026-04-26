@@ -58,6 +58,7 @@ Client.cs
 DocumentCommercial.cs
 Entreprise.cs
 Facture.cs
+GestionFacturation.cs
 LigneFacture.cs
 obj/Debug/net10.0/
  .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
