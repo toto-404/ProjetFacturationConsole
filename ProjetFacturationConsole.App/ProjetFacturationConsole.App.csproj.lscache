@@ -55,6 +55,7 @@ TemporaryDependencyNodeTargetIdentifier=net10.0
 
 [sourceFiles]
 Client.cs
+DocumentCommercial.cs
 Entreprise.cs
 Facture.cs
 LigneFacture.cs
